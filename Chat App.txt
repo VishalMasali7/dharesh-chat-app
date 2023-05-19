@@ -1,0 +1,83 @@
+1: Section Intro
+Real time data transfer so soon as sender sends the message and
+user able to see the message
+Exploring web sockets and socket.io
+
+2: Creating chat app project
+Created a webpage using express
+Installed nodemon as local dependency
+Created scripts start and dev using node and nodemon
+
+3: Web Sockets
+1. Web socket protocol  allow for full-duplex(bi-directional) communication
+which means clients can initiate communication with the server
+and the server can initiate communication with the client
+2. websocket is a separate protocol from HTTP
+3. Persistent connection between client and server
+
+4: Getting started with socket.io
+1. Installing socket.io
+2. <script src="/socket.io/socket.io.js"> </script>
+loading socket.io library in the client side, Its client side version of the library
+ 
+5: Soket.io Events -to transfer data between the server and the client
+
+6: Challenge
+
+7: Broadcasting events
+When new user enters chat it shows entered text to everyone
+when user left that time also
+
+8: Sharing your location
+Allow user to share location to other person
+mdn geolocation
+sharing coordinates in link
+
+9: Event Acknowledgements
+shows whether other user received message or not
+npm i bad-words
+
+10: Form and Button States
+Disable the send location while location being sent
+after that enable that button
+
+11: Rendering Messages
+1. Using Mustache
+
+12: Rendering Location Messages
+1. Creating a template using script and anchor tag and doing same procedure
+
+13: Working with time
+Inbuilt JavaScript functionality
+Getting time in timestamp method
+momentjs.com - moment provide format()
+
+14: Timestamps for Location Messages
+
+15: Styling the Chat App
+Giving style to chat webpage by creating sidebar, adding background and changing style of button
+
+16: Join Page
+Created chat.html file and created seperate webpage to enter username and chat room
+
+17: Socket.io Rooms
+creating chat room
+
+18: Storing Users: Part I
+created new file src folder users.js and addUser, removeUser (by id), getUser, getUsersInRoom
+
+19: Storing Users: Part II 
+
+20: Tracking Users Joining and Leaving
+
+21: Sending Messages to Rooms
+Mentioning username on sending message and location everytime
+
+22: Rendering user list
+Modifying sidebar
+
+23: Automatic Scrolling
+Enabling Automatic scrolling
+
+24: Deploying chat application
+ converting chat application to production server
